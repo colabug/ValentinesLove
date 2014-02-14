@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--Application name-->
+    <!--TODO: Update the application name here-->
+    <string name="APP_NAME">J + C = &lt;3</string>
+
+    <!--Section titles-->
+    <!--TODO: Update tiles here-->
+    <string name="ENGAGEMENT_TITLE">Jason and Corey\nSitting in a Tree</string>
+    <string name="ENGAGEMENT_TITLE_2">Nerd Love</string>
+    <string name="WEDDING_TITLE_1">Mountain Magnolia</string>
+    <string name="WEDDING_TITLE_3">Outdoor Wedding</string>
+    <string name="WEDDING_TITLE_2">Wedding Kiss</string>
+    <string name="DAY_AFTER_TITLE">The Day After</string>
+    <string name="TRASH_THE_DRESS_TITLE">Trashing the Dress</string>
+    <string name="HONEYMOON_TITLE">Honeymoon</string>
+
+    <!--Accessibility-->
+    <string name="NAVIGATION_DRAWER_OPEN">Open navigation drawer</string>
+    <string name="NAVIGATION_DRAWER_CLOSE">Close navigation drawer</string>
+</resources>

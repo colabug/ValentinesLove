@@ -1,10 +1,10 @@
-BUILDING
+<h1>BUILDING</h1>
 
 1. Clone repo
 2. Import into AndroidStudio by select6ing build.gradle in the base directory.
 3. Build!
 
-PERSONALIZING
+<h1>PERSONALIZING</h1>
 To add your own pictures, update the files in the Love/src/main/res/drawable
 folder. 
 
@@ -15,10 +15,11 @@ titles shown inthe navigation drawer.
 
 To map your new titles and images, edit LoveActivity.java:
 
-    /**
+    `/**
      * Maps the titles and images for display.
      *
-     * TODO: Swap these strings and drawable ids for your own pictures and titles.
+     * TODO: Swap these strings and drawable ids for your own pictures
+     *       and titles.
      *          - Replace the strings in res/values/strings.xml
      *          - Replace the drawables in the res/drawable/ folder
      */
@@ -26,8 +27,7 @@ To map your new titles and images, edit LoveActivity.java:
     {
         viewDataItems = new ArrayList<ViewDataItem>();
         viewDataItems.add( new ViewDataItem( getString( R.string.your_new_name ), R.drawable.your_new_picture_minus_extension ) );
-        viewDataItems.add( new ViewDataItem( getString( R.string.your_new_name ), R.drawable.your_new_picture_minus_extension ) );
-    }
+    }`
 
 The order you add them here is the order they will appear.
 

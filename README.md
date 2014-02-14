@@ -15,7 +15,7 @@ titles shown inthe navigation drawer.
 
 To map your new titles and images, edit LoveActivity.java:
 
-    `/**
+    /**
      * Maps the titles and images for display.
      *
      * TODO: Swap these strings and drawable ids for your own pictures
@@ -27,7 +27,7 @@ To map your new titles and images, edit LoveActivity.java:
     {
         viewDataItems = new ArrayList<ViewDataItem>();
         viewDataItems.add( new ViewDataItem( getString( R.string.your_new_name ), R.drawable.your_new_picture_minus_extension ) );
-    }`
+    }
 
 The order you add them here is the order they will appear.
 
